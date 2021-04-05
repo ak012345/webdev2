@@ -31,9 +31,9 @@ public class Thermometer {
 	}
 	
 	/**
-	 * Public getter method  for the 
+	 * Getter method that returns the minimum temperature to be shown on the graphic.  
 	 * 
-	 * @return The minimum temperate on the thermometer
+	 * @return The minimum temperature on the thermometer
 	 */
 	public int getMinimumTemperature() {
 		return this.minTemperature;
@@ -41,7 +41,7 @@ public class Thermometer {
 	
 	/**
 	 * 
-	 * @return The maximum temperate on the thermometer
+	 * @return The maximum temperature on the thermometer
 	 */
 	public int getMaximumTemperature() {
 		return this.maxTemperature;
