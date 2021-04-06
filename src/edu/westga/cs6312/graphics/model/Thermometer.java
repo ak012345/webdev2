@@ -24,7 +24,7 @@ public class Thermometer {
  * @param inputMaxTemperature The maximum temperature value to be shown on the thermometer graphic
  * @param inputCurrentTemperature The current temperature value to be shown on the thermometer graphic
  */
-	public void Thermomenter(int inputMinTemperature,int inputMaxTemperature,int inputCurrentTemperature) {
+	public Thermometer(int inputMinTemperature,int inputMaxTemperature,int inputCurrentTemperature) {
 		this.minTemperature = inputMinTemperature;
 		this.maxTemperature = inputMaxTemperature;
 		this.currentTemperature = inputCurrentTemperature;
